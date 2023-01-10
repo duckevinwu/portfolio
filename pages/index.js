@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 // components
-import GridCard from '../components/GridCard/GridCard'
+import GridCard from '../components/GridCard/GridCard';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <section className="mt-24">
           <div className="">
             <h1 className="text-6xl mb-6">hi, i'm <font className="font-semibold">kevin</font></h1>
-            <h2 className="text-xl">i like to make fun things and use technology to make the <font className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500">world</font> a better place</h2>
+            <h2 className="text-xl">i like to create fun things and use technology to make the <font className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500">world</font> a better place</h2>
           </div>
         </section>
         <section className="mt-16">
