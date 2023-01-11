@@ -36,7 +36,8 @@ export default function Home() {
               href="/project/quoteguessing" />
             <GridCard 
               imageUrl="https://i.imgur.com/Vx865ze.png"
-              projectName="Nonprofit Affiliate Fundraising"/>
+              projectName="Nonprofit Affiliate Fundraising"
+              href="/project/nonprofitfundraising" />
           </div>
         </section>
       </main>
