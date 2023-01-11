@@ -55,7 +55,7 @@ const Template = (props) => {
                                 </div>
                                 <div className="mt-8">
                                     <h3 className="uppercase text-sm tracking-widest mb-4">Links</h3>
-                                    <a href={props.githubLink} target="_blank" className="p-3 bg-black text-white rounded-md cursor-pointer border border-black hover:bg-white hover:text-black transition duration-300">
+                                    <a href={props.githubLink} target="_blank" rel="noreferrer" className="p-3 bg-black text-white rounded-md cursor-pointer border border-black hover:bg-white hover:text-black transition duration-300">
                                         <i className="bi-github text-lg mr-2"></i>Github
                                     </a>
                                 </div>

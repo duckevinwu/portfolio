@@ -36,7 +36,7 @@ const QRScan = () => {
                 galleryImages={galleryImages}>
                 <div className="text-lg">
                     <p>
-                        The problem this project was solving was that brick and mortar small businesses don't have a good way to get repeat customers.
+                        The problem this project was solving was that brick and mortar small businesses don&apos;t have a good way to get repeat customers.
                         This application provides MVP functionality to subscribe people to loyalty programs via QR scanning and special deals distributed through text.
                     </p>
                     <br />
