@@ -3,6 +3,8 @@ import Image from "next/image";
 
 // components
 import { ReactToolPill, NodeToolPill, AWSToolPill } from "../../components/Project/ToolPills";
+import GalleryImage from "../../components/Project/GalleryImage";
+import Link from "../../components/Link/Link";
 
 const Template = () => {
     return (
@@ -16,11 +18,15 @@ const Template = () => {
             <main>
                 <section className="mt-12">
                     <div className="container mx-auto px-3 lg:px-5">
-                        <div className="flex flex-col md:flex-row">
+                        <Link className="text-xl" href="/">
+                            <i className="bi-arrow-left"> </i>back
+                        </Link>
+                        <div className="mt-12 flex flex-col md:flex-row">
                             <div className="md:w-1/2">
                                 <div className="relative h-64 sm:h-80 md:h-96 rounded-lg shadow-xl overflow-hidden">
                                     <Image 
                                         src="/placeholder.png"
+                                        alt="placeholder"
                                         fill="true" 
                                         style={{
                                             objectFit: 'cover'
@@ -42,26 +48,28 @@ const Template = () => {
                         </div>
                     </div>
                 </section>
-                <section className="mt-24">
+                <section className="mt-12">
                     <div className="container mx-auto px-3 lg:px-5">
                         <div className="flex flex-col md:flex-row">
                             <div className="md:w-1/2">
-                                <h2 className="text-4xl">technical breakdown</h2>
+                                <h2 className="text-4xl pt-16 md:sticky md:top-0">technical breakdown</h2>
                             </div>
-                            <div className="mt-6 md:w-1/2 md:pl-12 md:mt-0">
+                            <div className="mt-8 md:w-1/2 md:pl-12 md:mt-0 md:pt-16">
                                 <p className="text-xl">Description in paragraphs about what happened in this project</p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="mt-24 mb-24">
+                <section className="mt-12 mb-24">
                     <div className="container mx-auto px-3 lg:px-5">
                         <div className="flex flex-col md:flex-row">
                             <div className="md:w-1/2">
-                                <h2 className="text-4xl">gallery</h2>
+                                <h2 className="text-4xl pt-16 md:sticky md:top-0">gallery</h2>
                             </div>
-                            <div className="mt-6 md:w-1/2 md:pl-12 md:mt-0">
-                                <p className="text-xl">Pictures of the project</p>
+                            <div className="mt-8 md:w-1/2 md:pl-12 md:mt-0 md:pt-16">
+                                <GalleryImage src="/placeholder.png" alt="placeholder" />
+                                <GalleryImage src="/placeholder.png" alt="placeholder" />
+                                <GalleryImage src="/placeholder.png" alt="placeholder" />
                             </div>
                         </div>
                     </div>
