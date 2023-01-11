@@ -9,3 +9,4 @@ export const NODEJS = 'nodejs';
 export const REACT = 'react';
 export const SQL = 'sql';
 export const TAILWIND = 'tailwind';
+export const NEXTJS = 'nextjs';

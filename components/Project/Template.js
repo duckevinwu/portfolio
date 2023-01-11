@@ -13,7 +13,8 @@ const Template = (props) => {
         [ToolConstants.NODEJS]: <ToolPills.NodeToolPill />,
         [ToolConstants.REACT]: <ToolPills.ReactToolPill />,
         [ToolConstants.SQL]: <ToolPills.SQLToolPill />,
-        [ToolConstants.TAILWIND]: <ToolPills.TailwindToolPill />
+        [ToolConstants.TAILWIND]: <ToolPills.TailwindToolPill />,
+        [ToolConstants.NEXTJS]: <ToolPills.NextJSToolPill />
     }
 
     const getToolComponent = (tool) => {

@@ -54,6 +54,12 @@ const TailwindToolPill = () => {
     )
 }
 
+const NextJSToolPill = () => {
+    return (
+        <ToolPill text="NextJS" path="/tools/next.svg" />
+    )
+}
+
 export {
     AirtableToolPill,
     AWSToolPill,
@@ -63,5 +69,6 @@ export {
     NodeToolPill,
     ReactToolPill,
     SQLToolPill,
-    TailwindToolPill
+    TailwindToolPill,
+    NextJSToolPill
 }

@@ -27,8 +27,9 @@ export default function Home() {
               projectName="Enhanced Wordle Clone"
               href="/project/wordle"/>
             <GridCard 
-              imageUrl="https://i.imgur.com/SmVxIuF.png"
-              projectName="QR Scan for Repeat Customers"/>
+              imageUrl="https://i.imgur.com/BrC7xTA.png"
+              projectName="QR Scan for Repeat Customers"
+              href="/project/qrscan"/>
             <GridCard 
               imageUrl="https://i.imgur.com/QjXJg2X.png"
               projectName="Quote Guessing Game"/>
