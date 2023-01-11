@@ -25,14 +25,15 @@ export default function Home() {
             <GridCard 
               imageUrl="https://i.imgur.com/9f7ts6I.png"
               projectName="Enhanced Wordle Clone"
-              href="/project/wordle"/>
+              href="/project/wordle" />
             <GridCard 
               imageUrl="https://i.imgur.com/BrC7xTA.png"
               projectName="QR Scan for Repeat Customers"
-              href="/project/qrscan"/>
+              href="/project/qrscan" />
             <GridCard 
               imageUrl="https://i.imgur.com/QjXJg2X.png"
-              projectName="Quote Guessing Game"/>
+              projectName="Quote Guessing Game"
+              href="/project/quoteguessing" />
             <GridCard 
               imageUrl="https://i.imgur.com/Vx865ze.png"
               projectName="Nonprofit Affiliate Fundraising"/>

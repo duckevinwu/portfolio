@@ -10,6 +10,7 @@ import * as ToolConstants from "../../src/constants/ToolConstants";
 const Template = (props) => {
     const map = {
         [ToolConstants.AIRTABLE]: <ToolPills.AirtableToolPill />,
+        [ToolConstants.CSS]: <ToolPills.CSSToolPill />,
         [ToolConstants.NODEJS]: <ToolPills.NodeToolPill />,
         [ToolConstants.REACT]: <ToolPills.ReactToolPill />,
         [ToolConstants.SQL]: <ToolPills.SQLToolPill />,
