@@ -37,6 +37,10 @@ export default function Home() {
               imageUrl="https://i.imgur.com/Vx865ze.png"
               projectName="Nonprofit Affiliate Fundraising"
               href="/project/nonprofitfundraising" />
+            <GridCard
+              imageUrl="https://i.imgur.com/F0oqo0V.png"
+              projectName="Open Innovation Platform v1"
+              href="/project/openinnovationone" />
           </div>
         </section>
       </main>
